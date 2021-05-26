@@ -1,0 +1,76 @@
+body {
+    font-family: poppins;
+    font-weight: 200;
+    text-align: center;
+}
+
+h1, h2{
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 2.65rem;
+    margin: 4rem 1.7755rem 1rem 1.7755rem;
+}
+
+h1 span {
+    font-weight: 600;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.top-container {
+    display: inline-block;
+    width: 33%;
+    font-size: 0.75rem;
+}
+
+.cards {
+    width: 100%;
+    height: 600px;
+    
+}
+
+.cards div {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0 auto;
+    border-radius: 0.5rem;    
+    width: 18%;
+    padding: 0.5rem 2rem 7rem 2rem;
+    height: 170px;
+    text-align: left;
+    /* position: relative; */
+}
+
+.supervisor {
+    border-top: 0.3125rem solid hsl(180, 62%, 55%);
+    position: relative;
+    right: 450px;
+    bottom: 130px;
+}
+
+.calculator {
+    border-top: 0.3125rem solid hsl(212, 86%, 64%);
+    position: relative;
+    left: 450px;
+    bottom: 430px;
+}
+
+.team-builder {
+    border-top: 0.3125rem solid hsl(0, 78%, 62%);
+    position: relative;
+}
+
+.karma {
+    border-top: 0.3125rem solid hsl(34, 97%, 64%);
+    position: relative;
+    bottom: 550px;
+}
+
+img {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
